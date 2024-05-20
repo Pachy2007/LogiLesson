@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="Lessons.css">
+        <title>Clasificarea termenilor</title>
+        <link rel="icon" , href="Poze\LOGO.png" type="image/x-icon">
+    </head>
+<body>
+    <div class="logo">
+        <a href="main.html"><img  src="Poze\logo_alb.png" alt="LogiLesson" width="50" height="50"></a>
+    </div>
+    <nav>
+        <ul style="background-color: white;">
+            <li><a href="main.html" class="firstLink">LogiLesson</a></li>
+            <li><a href="Caracterizare_Generala.html">Incepe Lectiile</a></li>
+            <li><a href="Documentatie.html">Documentatie Site</a></li>
+            <li><a href="despre_noi.html">Despre Noi</a></li>
+        </ul>
+    </nav>
+    <div class="content" style="display: flex;overflow-y: hidden;">
+    
+    <div class="navBar">
+    <ul class="ull" >
+        <div style="border-bottom: 3px solid black; padding-bottom: 10px;">
+        <h1 style="font-size: 25px;">Analiza Logica a argumentului</h1>
+        <ul class="ulll" >
+            <button onclick="list('first')"  class="button" >Termeni</button>
+            <ul id="first" style="display: none;" class="ulll">
+                <a href="Caracterizare_Generala.html"><li class="lii">Caracterizare Generala</li></a>
+                <a href="#"><li class="lii">Clasificarea Termenilor</li></a>
+                <a href="Raporturi_logice_intre_termeni.html"><li class="lii">Raporturi Logice intre Termeni</li></a>
+            </ul>
+        </ul>
+        <ul class="ulll">
+            <button onclick="list('second')"  class="button" >Propozitii Categorice</button>
+            <ul id="second" style="display: none;" class="ulll">
+                <a href="Structura_PropoziţiiCategorice.html"><li class="lii">Structura Propozitiilor Categorice</li></a>
+                <a href="Tipuri_PropozitiiCategorice.html"><li class="lii">Tipuri de propozitii categorice</li></a>
+                <a href="PătratulLuiBoethis.html"><li class="lii">Raporturi Logice intre Propozitii Categorice</li></a>
+            </ul>
+        </ul>
+    </div>
+
+        <div style="border-bottom: 3px solid black; padding-bottom: 10px;">
+        <h1 style="font-size: 25px;">Tehnici de argumentare</h1>
+        <ul class="ulll" >
+            <button onclick="list('third')"  class="button" >Rationamente</button>
+            <ul id="third" style="display: none;" class="ulll">
+                <a href="Definire_si_Caracterizare_Generala.html"><li class="lii">Definire si Caracterizare Generala</li></a>
+                <a href="Tipuri_de_Rationamente.html"><li class="lii">Tipuri de rationamente</li></a>
+            </ul>
+        </ul>
+        <ul class="ulll">
+            <a href="Inferente.html"><button class="button">Inferențe Imediate cu propozitii Categorice</button></a>
+        </ul>
+        </div>
+        <div style="border-bottom: 3px solid black; padding-bottom: 10px;">
+        <h1 style="font-size: 25px;">Silogism</h1>
+        <a href="Silogisme.html"><button class="button">Structura Generala</button></a>
+        </div>
+    </ul>
+</div>
+    <div class="lesson" >
+        <h1>Clasificarea termenilor</h1>
+        <p>După extensiune termenii pot fi:</p>
+        <ul>
+            <li><a style="color:rgb(212, 141, 201) ; font-weight: bold ; text-indent: 0px;">Vizi</a> (extensiunea lor nu conţine nici un obiect, ex: balaur cu şapte capete, centaur, sirenă, pătrat rotund</li>
+            <li><a style="color:rgb(212, 141, 201); font-weight: bold ; text-indent: 0px">Nevizi</a> (extensiunea conţine cel puţin un termen, ex:oglindă, geam, dulap)</li>
+        </ul>
+        <ul>
+            <li><a style="color:rgb(220, 107, 203) ; font-weight: bold ; text-indent: 0px;">Singulari</a> (extensiunea lor este formată dintr-un singur obiect, ex: Organizaţia Naţiunilor Unite, Liceul Tehnologic ,,Gh. Mârzescu”, Iaşi)</li>
+            <li><a style="color:rgb(220, 107, 203) ; font-weight: bold ; text-indent: 0px">Generali</a> (extensiunea lor este formată din mai multe obiecte, ex: creion, pix, caiet, carte)</li>
+        </ul>
+        <ul>
+            <li><a style="color:rgb(208, 65, 186) ; font-weight: bold ; text-indent: 0px;">Colectivi</a> (proprietăţile ce aparţin colecţiei, nu nu pot fi distribuite fiecărui membru al colecţiei, ex: armată, bibliotecă, pădure)</li>
+            <li><a style="color:rgb(208, 65, 186) ; font-weight: bold ; text-indent: 0px">Distributivi</a> (proprietăţile din intensiunea termenului, revin fiecărui obiect din extensiunea acestuia, ex: cană, pom, creion)</li>
+        </ul>
+
+        <ul>
+            <li><a style="color:rgb(160, 17, 139) ; font-weight: bold ; text-indent: 0px;">Precişi</a> ( ştim din ce extensiune face parte, ex: computer, telefon mobil, cardigan)</li>
+            <li><a style="color:rgb(160, 17, 139)  ; font-weight: bold ; text-indent: 0px">Imprecişi</a> (nu ştim în ce extensiune să-i încadrăm, ex: frumos, cinstit, glorie, rău).</li>
+        </ul>
+        <br>
+        <p>După intensiune, respectiv după proprietăţile pe care obiectele dintr-o clasă de obiecte le au în comun, termenii(cuvinte, grupuri de cuvinte) pot fi:</p>
+    
+        <ul>
+            <li>Termeni<a style="color:rgb(212, 141, 201) ; font-weight: bold ; text-indent: 0px;"> abstracţi</a> sau <a style="color:rgb(212, 141, 201) ; font-weight: bold ; text-indent: 0px;"> concreţi</a></li>
+            <p>Deosebirea dintre termenii abstracţi şi cei concreţi se poate realiza în funcţie de posibilitatea de a percepe (vedea) sau pipăi însuşirea obiectul sau fiinţa la care se referă noţiunea. Dacă există această posibilitate, atunci termenul este concret, exemple: bun, curajos, inteligent, credincios; în schimb dacă nu există această posibilitate, termenul este abstract, exemple: curaj, bunătate, inteligenţă, credinţă, curaj.</p>
+            
+        </ul>
+        <ul>
+            <li>Termeni<a style="color:rgb(220, 107, 203) ; font-weight: bold ; text-indent: 0px;"> absoluţi</a> sau <a style="color:rgb(220, 107, 203) ; font-weight: bold ; text-indent: 0px;">relativi</a></li>
+            <p>Termenii absoluţi sunt acei termeni care pot fi gândiţi independent de alţi termeni, exemple: dulap, televizor, bicicletă, frigider, însă termenii relativi nu pot fi concepuţi decât în relaţie cu alţi termeni, exemple: bunic-nepot, părinte-copil, soţ-soţie.</p>
+        </ul>
+
+        <ul>
+            <li>Termeni<a style="color:rgb(208, 65, 186) ; font-weight: bold ; text-indent: 0px;"> pozitivi</a> sau <a style="color:rgb(208, 65, 186); font-weight: bold ; text-indent: 0px;">negativ</a></li>
+            <p>Dacă un termen exprimă prezenţa unei însuşiri, atunci acel termen este pozitiv, exemple: cinstit, legal, bun, însă dacă termenul este exprimă lipsa unei însuşiri acel termen este unul negativ, exemple: surd, mut, nevăzător, necinstit.</p>
+        </ul>
+
+        <ul>
+            <li>Termeni<a style="color:rgb(160, 17, 139) ; font-weight: bold ; text-indent: 0px;"> simpli</a> sau <a style="color:rgb(160, 17, 139); font-weight: bold ; text-indent: 0px;">compuşi</a></li>
+            <p>Termeni simpli mai sunt numiţi şi noţiuni primare, exemple: examen, carte, maşină, pentru că, pornind de la aceştia, se vor forma termenii compuşi, exemple: carte de poveşti, maşină de spălat, examen de bacalureat.</p>
+        </ul>
+
+        
+    </div>
+</div>
+    
+    <footer>
+        <p>LogiLesson : Site creat de Nechita Anastasia si Pachitanu Matei dedicat ajutarii invatarii materiei Logica, Profesori coordonatori : Livia Baciu - Ionela , Gradinariu Mariana</p>
+    </footer>
+
+    <script>
+        function list(numeID) {
+          var x = document.getElementById(numeID);
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+</body>
+</html>

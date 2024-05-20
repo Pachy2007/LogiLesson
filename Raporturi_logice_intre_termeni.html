@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="Lessons.css">
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Raporturi Logice intre Termeni</title>
+        <link rel="icon" , href="Poze\LOGO.png" type="image/x-icon">
+    
+    </head>
+<body>
+    <div class="logo">
+        <a href="main.html"><img  src="Poze\logo_alb.png" alt="LogiLesson" width="50" height="50"></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="main.html" class="firstLink">LogiLesson</a></li>
+            <li><a href="Caracterizare_Generala.html">Incepe Lectiile</a></li>
+            <li><a href="Documentatie.html">Documentatie Site</a></li>
+            <li><a href="despre_noi.html">Despre Noi</a></li>
+        </ul>
+    </nav>
+
+    <div class="content" style="display: flex;overflow-y: hidden;">
+    
+        <div class="navBar">
+            <ul class="ull" >
+                <div style="border-bottom: 3px solid black; padding-bottom: 10px;">
+                <h1 style="font-size: 25px;">Analiza Logica a argumentului</h1>
+                <ul class="ulll" >
+                    <button onclick="list('first')"  class="button" >Termeni</button>
+                    <ul id="first" style="display: none;" class="ulll">
+                        <a href="Caracterizare_Generala.html"><li class="lii">Caracterizare Generala</li></a>
+                        <a href="ClasificareaTermenilor.html"><li class="lii">Clasificarea Termenilor</li></a>
+                        <a href="Raporturi_logice_intre_termeni.html"><li class="lii">Raporturi Logice intre Termeni</li></a>
+                    </ul>
+                </ul>
+                <ul class="ulll">
+                    <button onclick="list('second')"  class="button" >Propozitii Categorice</button>
+                    <ul id="second" style="display: none;" class="ulll">
+                        <a href="Structura_PropoziţiiCategorice.html"><li class="lii">Structura Propozitiilor Categorice</li></a>
+                        <a href="Tipuri_PropozitiiCategorice.html"><li class="lii">Tipuri de propozitii categorice</li></a>
+                        <a href="PătratulLuiBoethis.html"><li class="lii">Raporturi Logice intre Propozitii Categorice</li></a>
+                    </ul>
+                </ul>
+            </div>
+        
+                <div style="border-bottom: 3px solid black; padding-bottom: 10px;">
+                <h1 style="font-size: 25px;">Tehnici de argumentare</h1>
+                <ul class="ulll" >
+                    <button onclick="list('third')"  class="button" >Rationamente</button>
+                    <ul id="third" style="display: none;" class="ulll">
+                        <a href="Definire_si_Caracterizare_Generala.html"><li class="lii">Definire si Caracterizare Generala</li></a>
+                        <a href="Tipuri_de_Rationamente.html"><li class="lii">Tipuri de rationamente</li></a>
+                    </ul>
+                </ul>
+                <ul class="ulll">
+                    <a href="Inferente.html"><button class="button">Inferențe Imediate cu propozitii Categorice</button></a>
+                </ul>
+                </div>
+                <div style="border-bottom: 3px solid black; padding-bottom: 10px;">
+                <h1 style="font-size: 25px;">Silogism</h1>
+                <a href="Silogisme.html"><button class="button">Structura Generala</button></a>
+                </div>
+            </ul>
+        </div>
+        <div class="lesson">
+            <h1>Raporturi logice între termeni</h1>
+            <p>Între termeni, din punct de vedere extensional, se pot stabili raporturi. Aceste raporturi pot fi reprezentate grafic prin metoda diagramelor Euler. Extensiunea fiecărui termen este reprezentată printr-un cerc, iar în funcție de poziționarea cercurilor ne putem da seama daca termenii au sau nu au elemente comune. </p>
+            <p>Raporturi logice între termeni se împart în două mari categorii:</p>
+            <p><a style="font-size: 15px; color:rgb(173, 44, 185) ; font-weight: bold;">Raportul de concordanță:</a>au elemente comune. Acestea la rândul lor se împart în trei categorii:</p>
+            <ul style="padding-left: 80px;">
+                <li>
+                    <a style="font-weight: bold;">Raport de identitate:</a> au aceași extensiune ( se referă între termeni sinonimi) Ex:A=drapel , B=steag 
+                    <br>
+                    <img src="Poze\Raport_de_Identitate.png" width="150" height="150">
+                </li>
+                <li>
+                    <a style="font-weight: bold;">Raport de ordonare (incluziune):</a> raportul gen-specie 
+                    <br>
+                    <a>Genul= elementul supraordonat </a>
+                    <br>
+                <a>Specie= elementul subordonat </a>
+                <br>
+                Ex:    A=felină;  B=pisică 
+                <br>
+                <img src="Poze\Raport_de_Ordonare.png" width="150" height="150">
+                </li>
+                <li>
+                    <a style="font-weight: bold;">Raport de încrucișare:</a> au o parte comună și o parte necomună Ex:A=elevi , B=ieșean 
+                    <br>
+                    <img src="Poze\Raport_de_Contrarietate.png" width="200" height="150">
+                </li>
+            </ul>
+            <p><a style="font-size: 15px; color:rgb(173, 44, 185) ; font-weight: bold;">Raport de opoziție:</a>nu au elemente comune</p>
+            <ul style="padding-left: 80px;">
+                <li>
+                    <a style="font-size: 15px ; font-weight: bold;">Raport de contradicție:</a>
+                    <br>
+                    <br>
+                    <p>Se stabilește între specile aceluiași gen care are cel puțin două specii.</p>
+                    <br>
+                    Ex : A=legal ,   B=ilegal   ; A=nr. par ,   B=nr. impar 
+                    <br>
+                    <img src="Poze\Raport_de_Contradictie1.png" width="170" height="150">
+                    <p>Se poate stabili și între un termen și negația sa.</p>
+                    Ex: A=animal ,  B=non-animal ; A=ființă , B=neființă 
+                    <br>
+                    <img src="Poze\Raport_de_Contrarietate2.png" width="220" height="150">
+                    <p>Se poate stabili între doi termeni opuși care nu au nimic în comun.</p>
+                    Ex: A=iarba , B=masă 
+                    <br>
+                    <img src="Poze\Raport_de_Contrarietate4.png" width="270" height="150">
+                </li>
+                <li>
+                    <a style="font-weight: bold;">Raport de contrarietate:</a>: se poate stabili între specile aceluiași gen, care are cel puțin trei specii
+                    <br>
+                    Ex: A=Africa ,  B=Europa
+                    <br>
+                    <img src="Poze\Raport_de_Contradictie.png" width="150" height="150">
+                </li>
+            </ul>
+            
+
+        </div>
+    </div>
+
+    <footer>
+        <p>LogiLesson : Site creat de Nechita Anastasia si Pachitanu Matei dedicat ajutarii invatarii materiei Logica, Profesori coordonatori : Livia Baciu - Ionela , Gradinariu Mariana</p>
+    </footer>
+    <script>
+        function list(numeID) {
+          var x = document.getElementById(numeID);
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+</body>
+</html>

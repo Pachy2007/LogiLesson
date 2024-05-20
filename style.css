@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: rgb(35, 35, 35);
+}
+
+nav{
+    background-color: rgb(35, 35, 35);
+
+    overflow: auto;
+
+}
+nav ul{
+    padding: 0;
+    margin: 0 0 0 90px;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    font-weight: bold;
+    font-size: 23px;
+}
+.logo img{
+        position: absolute;
+        margin-top: 8px;
+        margin-left:30px;
+
+}
+nav a{
+    display:block;
+    padding: 20px 15px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: underline 0.15em rgb(35, 35, 35);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 500ms, text-underline-offset 500ms;
+}
+li a:hover{
+    text-decoration-color: rgb(255, 255, 255);
+    text-underline-offset: 0.2em;
+}
+
+.bg-img{
+    background-image: url('Untitled_design.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-text {
+    
+
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    font-size:30px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    border-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color:black;
+
+    border-top: 10px;
+    border-top-style: solid;
+    border-top-color:black;
+
+    text-align: center;
+  }
+
+.ull{
+    padding: 0;
+    list-style-type: none;
+    width: 450px;
+    margin: auto;
+    padding-top: 25px;
+    background-color: white;
+
+}
+.lii{
+    width:430px;
+    height:40px;
+    margin:0px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    float: left;
+    transition: 0.5s;
+
+}
+.aa{
+    font-size: 25px;
+    display: block;
+    width:430px;
+    height:40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.lii:hover{
+    background-color: rgb(212, 141, 201);
+    transition: 0.5s;
+}
+.navv{
+    background-color: white;
+    height: 100px;
+}
+footer{
+    text-align: center;
+    color: white;
+    height:155px;
+    background-color: rgb(35, 35, 35);
+}
+footer p{
+    padding-top: 175px;
+}

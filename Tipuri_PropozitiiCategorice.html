@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="Lessons.css">
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tipuri Propozitii Categorice</title>
+        <link rel="icon" , href="Poze\LOGO.png" type="image/x-icon">
+    
+    </head>
+<body>
+    <div class="logo">
+        <a href="main.html"><img  src="Poze\logo_alb.png" alt="LogiLesson" width="50" height="50"></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="main.html" class="firstLink">LogiLesson</a></li>
+            <li><a href="Caracterizare_Generala.html">Incepe Lectiile</a></li>
+            <li><a href="Documentatie.html">Documentatie Site</a></li>
+            <li><a href="despre_noi.html">Despre Noi</a></li>
+        </ul>
+    </nav>
+
+    <div class="content" style="display: flex;overflow-y: hidden;">
+    
+        <div class="navBar">
+            <ul class="ull" >
+                <div style="border-bottom: 3px solid black; padding-bottom: 10px;">
+                <h1 style="font-size: 25px;">Analiza Logica a argumentului</h1>
+                <ul class="ulll" >
+                    <button onclick="list('first')"  class="button" >Termeni</button>
+                    <ul id="first" style="display: none;" class="ulll">
+                        <a href="Caracterizare_Generala.html"><li class="lii">Caracterizare Generala</li></a>
+                        <a href="ClasificareaTermenilor.html"><li class="lii">Clasificarea Termenilor</li></a>
+                        <a href="Raporturi_logice_intre_termeni.html"><li class="lii">Raporturi Logice intre Termeni</li></a>
+                    </ul>
+                </ul>
+                <ul class="ulll">
+                    <button onclick="list('second')"  class="button" >Propozitii Categorice</button>
+                    <ul id="second" style="display: none;" class="ulll">
+                        <a href="Structura_PropoziţiiCategorice.html"><li class="lii">Structura Propozitiilor Categorice</li></a>
+                        <a href="Tipuri_PropozitiiCategorice.html"><li class="lii">Tipuri de propozitii categorice</li></a>
+                        <a href="PătratulLuiBoethis.html"><li class="lii">Raporturi Logice intre Propozitii Categorice</li></a>
+                    </ul>
+                </ul>
+            </div>
+        
+                <div style="border-bottom: 3px solid black; padding-bottom: 10px;">
+                <h1 style="font-size: 25px;">Tehnici de argumentare</h1>
+                <ul class="ulll" >
+                    <button onclick="list('third')"  class="button" >Rationamente</button>
+                    <ul id="third" style="display: none;" class="ulll">
+                        <a href="Definire_si_Caracterizare_Generala.html"><li class="lii">Definire si Caracterizare Generala</li></a>
+                        <a href="Tipuri_de_Rationamente.html"><li class="lii">Tipuri de rationamente</li></a>
+                    </ul>
+                </ul>
+                <ul class="ulll">
+                    <a href="Inferente.html"><button class="button">Inferențe Imediate cu propozitii Categorice</button></a>
+                </ul>
+                </div>
+                <div style="border-bottom: 3px solid black; padding-bottom: 10px;">
+                <h1 style="font-size: 25px;">Silogism</h1>
+                <a href="Silogisme.html"><button class="button">Structura Generala</button></a>
+                </div>
+            </ul>
+        </div>
+        <div class="lesson">
+            <h1>Tipuri de propozitii categorice</h2>
+                <p>	Există două criterii de clasificare a propoziţiilor categorice:</p>
+                <ul>
+                    <li>
+                        <p style="text-indent: 0;">Criteriul calităţii</p>
+                        <ul>
+                        <li><p style="text-indent: 0;">Propoziţii afirmative în care predicatul este negat despre subiect
+                            ,,S este P”, ,,Toţi S sunt P”, ,,Unii sunt P”.</p></li>
+                            <li><p style="text-indent: 0;">Propoziţii negative, în care predicatul este negat despre subiect
+                            ,,S nu este P”, ,,Nici un S nu este P”, ,,Unii S nu sunt P”.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><p style="text-indent: 0;">Criteriul cantităţii</p>
+                        <p>La cât din sfera subiectului se referă predicatul.
+                            Acestea se împart în:</p>
+                            <ul>
+                                <li><p style="text-indent: 0;">Universale predicatul se referă la întreaga sferă a subiectului:
+                                    Toţi S sunt P sau Nici un S nu este P.</p>
+                                    </li>
+                                <li><p style="text-indent: 0;">Particulare (predicatul se referă la o parte a sferei subiectului) – Unii S sunt P şi Unii Snu sunt P; Indicatorii care arată că este o propoziţie particulară sunt: ,,unii”, ,,unele”, ,,mulţi”, ,,puţini”, ,,există cel puţin un”, ,,majoritatea”.</p></li>
+                                <li><p style="text-indent: 0;">Singular, subiectul are în sfera sa un singur element.
+                                    Acest S este P-Acest caiet este albastru.
+                                    </p>
+                                    </li>
+                            </ul>
+                    </li>
+                </ul>
+                <p>Combinând clasificarea după criteriul calităţii cu clasificarea propoziţiilor după criteriul cantităţii, se vor obţine patru tipuri de propoziţii categorice, fiecărui tip de propoziţie categorică îi va corespunde un simbol, o formulă şi diferite metode de reprezentare grafică a raportului existent între termeni.</p>
+                <p>Propoziţii categorice:</p>
+                <ul>
+                    <li><p style="text-indent: 0;">Universal afirmativă    Toţi S sunt P    Toţi elevii sunt sportive de performanţă.</p></li>
+                    <li><p style="text-indent: 0;">Universal Negativă     Nici un S nu este P  Nici un elev nu este sportive de performanţă.</p></li>
+                    <li><p style="text-indent: 0;">Particular afirmativă Unii S sunt P   Unii elevi sunt sportivi de performanţă.</p></li>
+                    <li><p style="text-indent: 0;">Particular negativă Unii S nu sunt P Unii elevi nu sunt sportivi de performanţă</p></li>
+                </ul>
+                
+            
+        </div>
+    </div>
+
+    <footer>
+        <p>LogiLesson : Site creat de Nechita Anastasia si Pachitanu Matei dedicat ajutarii invatarii materiei Logica, Profesori coordonatori : Livia Baciu - Ionela , Gradinariu Mariana</p>
+    </footer>
+    <script>
+        function list(numeID) {
+          var x = document.getElementById(numeID);
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+</body>
+</html>

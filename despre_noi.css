@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: rgb(35, 35, 35);
+}
+
+nav{
+    background-color: rgb(35, 35, 35);
+
+    overflow: auto;
+
+}
+nav ul{
+    padding: 0;
+    margin: 0 0 0 90px;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    font-weight: bold;
+    font-size: 23px;
+}
+.logo img{
+        position: absolute;
+        margin-top: 8px;
+        margin-left:30px;
+
+}
+nav a{
+    display:block;
+    padding: 20px 15px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: underline 0.15em rgb(35, 35, 35);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 500ms, text-underline-offset 500ms;
+}
+li a:hover{
+    text-decoration-color: rgb(255, 255, 255);
+    text-underline-offset: 0.2em;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    height:155px;
+    background-color: rgb(35, 35, 35);
+}
+footer p{
+    padding-top: 125px;
+}
+
+div p{
+    margin-top: 113px;
+    margin-bottom: 113px;
+    text-indent: 1cm;
+    width:600px;
+    margin-left: 200px;
+    letter-spacing: 6px;
+}
+.second{
+    margin-left: 50%;
+}
+.third{
+    margin-left: 30%;
+}
+.bg-img{
+    background-image: url('about_us_background_image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:100%;
+}
+
+.bg-text {
+    
+
+    background-color: rgba(0,0,0, 0.9); 
+    color: white;
+    font-weight: bold;
+    font-size:30px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    border-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color:black;
+
+    border-top: 10px;
+    border-top-style: solid;
+    border-top-color:black;
+
+    text-align: center;
+  }

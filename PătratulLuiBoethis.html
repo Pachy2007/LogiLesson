@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="stylesheet" href="Lessons.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Patratul lui Boethis</title>
+        <link rel="icon" , href="Poze\LOGO.png" type="image/x-icon">
+    
+    </head>
+<body>
+    <div class="logo">
+        <a href="main.html"><img  src="Poze\logo_alb.png" alt="LogiLesson" width="50" height="50"></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="main.html" class="firstLink">LogiLesson</a></li>
+            <li><a href="Caracterizare_Generala.html">Incepe Lectiile</a></li>
+            <li><a href="Documentatie.html">Documentatie Site</a></li>
+            <li><a href="despre_noi.html">Despre Noi</a></li>
+        </ul>
+    </nav>
+
+    <div class="content" style="display: flex;overflow-y: hidden;">
+    
+        <div class="navBar" >
+            <ul class="ull" >
+                <div style="border-bottom: 3px solid black; padding-bottom: 10px;">
+                <h1 style="font-size: 25px;">Analiza Logica a argumentului</h1>
+                <ul class="ulll" >
+                    <button onclick="list('first')"  class="button" >Termeni</button>
+                    <ul id="first" style="display: none;" class="ulll">
+                        <a href="Caracterizare_Generala.html"><li class="lii">Caracterizare Generala</li></a>
+                        <a href="ClasificareaTermenilor.html"><li class="lii">Clasificarea Termenilor</li></a>
+                        <a href="Raporturi_logice_intre_termeni.html"><li class="lii">Raporturi Logice intre Termeni</li></a>
+                    </ul>
+                </ul>
+                <ul class="ulll">
+                    <button onclick="list('second')"  class="button" >Propozitii Categorice</button>
+                    <ul id="second" style="display: none;" class="ulll">
+                        <a href="Structura_PropoziţiiCategorice.html"><li class="lii">Structura Propozitiilor Categorice</li></a>
+                        <a href="Tipuri_PropozitiiCategorice.html"><li class="lii">Tipuri de propozitii categorice</li></a>
+                        <a href="PătratulLuiBoethis.html"><li class="lii">Raporturi Logice intre Propozitii Categorice</li></a>
+                    </ul>
+                </ul>
+            </div>
+        
+                <div style="border-bottom: 3px solid black; padding-bottom: 10px;">
+                <h1 style="font-size: 25px;">Tehnici de argumentare</h1>
+                <ul class="ulll" >
+                    <button onclick="list('third')"  class="button" >Rationamente</button>
+                    <ul id="third" style="display: none;" class="ulll">
+                        <a href="Definire_si_Caracterizare_Generala.html"><li class="lii">Definire si Caracterizare Generala</li></a>
+                        <a href="Tipuri_de_Rationamente.html"><li class="lii">Tipuri de rationamente</li></a>
+                    </ul>
+                </ul>
+                <ul class="ulll">
+                    <a href="Inferente.html"><button class="button">Inferențe Imediate cu propozitii Categorice</button></a>
+                </ul>
+                </div>
+                <div style="border-bottom: 3px solid black; padding-bottom: 10px;">
+                <h1 style="font-size: 25px;">Silogism</h1>
+                <a href="Silogisme.html"><button class="button">Structura Generala</button></a>
+                </div>
+            </ul>
+        </div>
+        <div class="lesson">
+            <h1>Pătratul lui Boethis </h1>
+            <p> Între propozitiile categorice se pot forma raporturi logice care pot fi ilustrate prin pătratul logic al propozițiilor categorice ale lui <a style="color: rgb(208, 65, 186);"> Boethis </a></p>
+            <div style="text-align: center;"><img src="Poze\patrat.png" style="width:400px ; height:400px ;"></div>
+            <p> <a style="color: rgb(208, 65, 186);"> 1.Raport de contradicție </a></p>
+        
+            <div style="display:inline-block">
+            <p> SaP=1 <a style="color: rgb(208, 65, 186)" > => </a> SoP=0</p>
+            <p> SaP=0 <a style="color: rgb(208, 65, 186)" > => </a> SoP=1</p>
+            <p> SoP=1 <a style="color: rgb(208, 65, 186)" > => </a> SaP=0</p>
+            <p> SoP=0 <a style="color: rgb(208, 65, 186)" > => </a> SaP=1</p>
+        </div>
+            <div style="text-align: center ; display:inline-block"> 
+                <p> SeP=1 <a style="color: rgb(208, 65, 186)" > => </a> SiP=0</p>
+            <p> SeP=0 <a style="color: rgb(208, 65, 186)" > => </a> SiP=1</p>
+            <p> SiP=1 <a style="color: rgb(208, 65, 186)" > => </a> SeP=0</p>
+            <p> SiP=0 <a style="color: rgb(208, 65, 186)" > => </a> SeP=1</p>
+            </div>
+            <p>Daca este adevărat cã " Toți delfinii sunt mamifere " (SaP), in mod necesar este fals că " Unii delfini sunt mamifere" (SoP) si dacă este fals că " Toți oamenii sunt blonzi " (SaP), in mod necesar este adevărat că " Unii oameni nu sunt blonzi " (SoP).</p>
+<br>
+        <p> <a style="color: rgb(208, 65, 186);"> 2.Raport de contrarietate </a></p>
+        <p>Cele două propoziții nu pot fi adevărate împreună, dar pot fi false: </p>
+        
+        <p> SaP=1 <a style="color: rgb(208, 65, 186)" > => </a> SeP=0</p>
+        <p> SeP=1 <a style="color: rgb(208, 65, 186)" > => </a> SaP=0</p>
+        <p> SaP=0 <a style="color: rgb(208, 65, 186)" > => </a> SeP=?</p>
+        <p> SeP=0 <a style="color: rgb(208, 65, 186)" > => </a> SaP=?</p>
+    <p>Dacă este adevărat că  ” Toți oamenii sunt muritori ” (SaP), în mod necesar este fals că  ” Nici un om nu este muritor”  (SeP) și dacă este adevărat că  ” Nici un pește nu este mamifer ” (SeP), în mod necesar este fals că  ” Toți peștii sunt mamifere ” (SaP). Pe de altă parte, dacă este fals că ” Toți oamenii sunt sportivi ” (SaP), rezultă că este fals ” Nici un om nu este sportiv ” (SeP), deci ambele sunt simultan false, în timp ce dacă este fals că ” Toți fluturii sunt reptile ” (SaP), rezultă că este adevărat ” Nici un fluture nu este reptilă” (Sep). </p>
+   <br>
+    <p> <a style="color: rgb(208, 65, 186);">  3.  Raportul de subcontrarietate </a></p>
+    <p>Cele două propoziții nu pot fi false împreună, dar pot fi adevărate:  </p>
+    
+    <p> SiP=0 <a style="color: rgb(208, 65, 186)" > => </a> SoP=1</p>
+    <p> SoP=1 <a style="color: rgb(208, 65, 186)" > => </a> SiP=1</p>
+    <p> SiP=1 <a style="color: rgb(208, 65, 186)" > => </a> SoP=?</p>
+    <p> SoP=1 <a style="color: rgb(208, 65, 186)" > => </a> SiP=?</p>
+    <p> Dacă este fals că  ” Unii oameni au aripi ” (SiP), în mod necesar este adevărat că  ” Unii oameni nu au aripi”  (SoP) și dacă este fals că  ” Unii tigri nu sunt mamifere ” (SoP), în mod necesar este adevărat că  ” Unii tigri sunt mamifere ” (SiP). Pe de altă parte, dacă este adevărat că ” Unii oameni sunt artiști ” (SiP), rezultă că este adevărat ” Unii oameni nu sunt artiști” (SoP), deci ambele sunt simultan adevărate. </p>
+    <br>
+    <p> <a style="color: rgb(208, 65, 186);"> 4.  Raportul de subcontrarietate </a></p>
+
+    
+    <div style="display:inline-block">
+        <p> SaP=1 <a style="color: rgb(208, 65, 186)" > => </a> SiP=1</p>
+        <p> SiP=0 <a style="color: rgb(208, 65, 186)" > => </a> SaP=0</p>
+        <p> SaP=0 <a style="color: rgb(208, 65, 186)" > => </a> SiP=?</p>
+        <p> SiP=1 <a style="color: rgb(208, 65, 186)" > => </a> SaP=?</p>
+    </div>
+        <div style="text-align: center ; display:inline-block"> 
+            <p> SeP=1 <a style="color: rgb(208, 65, 186)" > => </a> SoP=1</p>
+        <p> SoP=0 <a style="color: rgb(208, 65, 186)" > => </a> SeP=0</p>
+        <p> SeP=0 <a style="color: rgb(208, 65, 186)" > => </a> S0P=?</p>
+        <p> SoP=1 <a style="color: rgb(208, 65, 186)" > => </a> SeP=?</p>
+        </div>
+        <p>Dacă este adevărat că  ” Toți oamenii sunt muritori ” (SaP), în mod necesar este adevărat că  ” Unii oameni sunt muritori”  (SiP) și dacă este fals că  ” Unele pisici sunt reptile ” (SiP), în mod necesar este fals că  ” Toate pisicile sunt reptile ” (SaP). În continuare, dacă este fals că ” Toți oamenii sunt patrupede ” (SaP), rezultă că este fals că ” Unii oameni sunt patrupede ” (SiP), deci ambele sunt simultan false, în timp ce dacă este fals că ” Toți oamenii sunt bruneți ” (SaP), rezultă că este adevărat ” Unii oameni sunt bruneți ” (SiP). Pe de altă parte, dacă este adevărat că ” Unele albine sunt insecte ” (SiP), rezultă de asemenea că este adevărat ” Toate albinele sunt insecte” (SaP), deci ambele sunt simultan adevărate, în timp ce dacă este adevărat că ” Unii oameni sunt aviator ” (SiP), rezultă că este fals ” Toți oamenii sunt aviator ” (SaP). </p>
+<br>
+        <p><a style="color: rgb(208, 65, 186)" > Observații!  </a></p>
+        <div style="display:inline-block"> 
+        <p><a style="color: rgb(208, 65, 186)" > => </a>
+         În cazul acestor raporturi, propozițiile egalate cu ” ? ” sunt propoziții <a style="color: rgb(208, 65, 186)" > nedeterminate</a>, prin aceasta înțelegând că propoziția poate fi în unele cazuri adevărată, iar în altele falsă, depinzând de starea de fapt la care se referă. </p>
+        </div>
+        </div>
+    </div>
+    <footer>
+
+        <p>LogiLesson : Site creat de Nechita Anastasia si Pachitanu Matei dedicat ajutarii invatarii materiei Logica, Profesori coordonatori : Livia Baciu - Ionela , Gradinariu Mariana</p>
+    </footer>
+    <script>
+        function list(numeID) {
+          var x = document.getElementById(numeID);
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+</body>
+</html>
